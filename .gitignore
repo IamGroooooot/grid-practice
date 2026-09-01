@@ -1,0 +1,17 @@
+/node_modules
+/.next/
+/out/
+/build
+
+.DS_Store
+*.pem
+npm-debug.log*
+
+# 환경 변수 파일은 올리지 않습니다. .env.example만 올립니다.
+.env*
+!.env.example
+
+.vercel
+.claude/
+*.tsbuildinfo
+next-env.d.ts
