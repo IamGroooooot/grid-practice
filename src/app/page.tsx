@@ -25,6 +25,14 @@ export default function Home() {
         </p>
       </div>
 
+      <div className="card">
+        <h3><Link href="/instructors">화면 3. 강의자 목록</Link></h3>
+        <p>
+          <code>instructors</code> 표에 저장된 강의자를 모아서 보여줍니다.
+          표가 아직 없다면 <code>npm run db:migrate</code>를 먼저 실행합니다.
+        </p>
+      </div>
+
       <h2>먼저 할 일</h2>
       <pre>{`npm install
 cp .env.example .env.local     # Windows: Copy-Item .env.example .env.local
